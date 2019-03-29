@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:id="@+id/gridLayout"
     android:orientation="vertical"
     android:layout_gravity="center"
     android:layout_height="match_parent"
-
-
-    tools:context=".MainActivity">
-
+    android:layout_width="match_parent"
+    tools:context=".SecondActivity">
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,7 +14,7 @@
         <LinearLayout
             android:orientation="vertical">
             <TextView
-                android:id="@+id/pic1"
+                android:id="@+id/total_pic1"
                 android:layout_width="@dimen/standard_width"
                 android:layout_height="@dimen/standard_height"
                 android:gravity="center"
@@ -28,7 +23,7 @@
                 android:layout_row="0"
                 android:layout_column="0"/>
             <TextView
-                android:id="@+id/cont_producto1"
+                android:id="@+id/total_producto1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -41,7 +36,7 @@
         <LinearLayout
             android:orientation="vertical">
             <TextView
-                android:id="@+id/pic2"
+                android:id="@+id/total_pic2"
                 android:layout_width="@dimen/standard_width"
                 android:layout_height="@dimen/standard_height"
                 android:gravity="center"
@@ -50,7 +45,7 @@
                 android:layout_row="0"
                 android:layout_column="0"/>
             <TextView
-                android:id="@+id/cont_producto2"
+                android:id="@+id/total_producto2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -63,7 +58,7 @@
         <LinearLayout
             android:orientation="vertical">
             <TextView
-                android:id="@+id/pic3"
+                android:id="@+id/total_pic3"
                 android:layout_width="@dimen/standard_width"
                 android:layout_height="@dimen/standard_height"
                 android:gravity="center"
@@ -72,7 +67,7 @@
                 android:layout_row="0"
                 android:layout_column="0"/>
             <TextView
-                android:id="@+id/cont_producto3"
+                android:id="@+id/total_producto3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -85,7 +80,7 @@
         <LinearLayout
             android:orientation="vertical">
             <TextView
-                android:id="@+id/pic4"
+                android:id="@+id/total_pic4"
                 android:layout_width="@dimen/standard_width"
                 android:layout_height="@dimen/standard_height"
                 android:gravity="center"
@@ -94,7 +89,7 @@
                 android:layout_row="0"
                 android:layout_column="0"/>
             <TextView
-                android:id="@+id/cont_producto4"
+                android:id="@+id/total_producto4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -107,7 +102,7 @@
         <LinearLayout
             android:orientation="vertical">
             <TextView
-                android:id="@+id/pic5"
+                android:id="@+id/total_pic5"
                 android:layout_width="@dimen/standard_width"
                 android:layout_height="@dimen/standard_height"
                 android:gravity="center"
@@ -116,7 +111,7 @@
                 android:layout_row="0"
                 android:layout_column="0"/>
             <TextView
-                android:id="@+id/cont_producto5"
+                android:id="@+id/total_producto5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -129,7 +124,7 @@
         <LinearLayout
             android:orientation="vertical">
             <TextView
-                android:id="@+id/pic6"
+                android:id="@+id/total_pic6"
                 android:layout_width="@dimen/standard_width"
                 android:layout_height="@dimen/standard_height"
                 android:gravity="center"
@@ -138,7 +133,7 @@
                 android:layout_row="0"
                 android:layout_column="0"/>
             <TextView
-                android:id="@+id/cont_producto6"
+                android:id="@+id/total_producto6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -151,7 +146,7 @@
         <LinearLayout
             android:orientation="vertical">
             <TextView
-                android:id="@+id/pic7"
+                android:id="@+id/total_pic7"
                 android:layout_width="@dimen/standard_width"
                 android:layout_height="@dimen/standard_height"
                 android:gravity="center"
@@ -160,7 +155,7 @@
                 android:layout_row="0"
                 android:layout_column="0"/>
             <TextView
-                android:id="@+id/cont_producto7"
+                android:id="@+id/total_producto7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -173,7 +168,7 @@
         <LinearLayout
             android:orientation="vertical">
             <TextView
-                android:id="@+id/pic8"
+                android:id="@+id/total_pic8"
                 android:layout_width="@dimen/standard_width"
                 android:layout_height="@dimen/standard_height"
                 android:gravity="center"
@@ -182,7 +177,7 @@
                 android:layout_row="0"
                 android:layout_column="0"/>
             <TextView
-                android:id="@+id/cont_producto8"
+                android:id="@+id/total_producto8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -195,7 +190,7 @@
         <LinearLayout
             android:orientation="vertical">
             <TextView
-                android:id="@+id/pic9"
+                android:id="@+id/total_pic9"
                 android:layout_width="@dimen/standard_width"
                 android:layout_height="@dimen/standard_height"
                 android:gravity="center"
@@ -204,7 +199,7 @@
                 android:layout_row="0"
                 android:layout_column="0"/>
             <TextView
-                android:id="@+id/cont_producto9"
+                android:id="@+id/total_producto9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -216,29 +211,25 @@
         </LinearLayout>
     </GridLayout>
 
-    <EditText
-        android:id="@+id/inputName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Usuario"
-
-        android:layout_row="3"
-        android:layout_column="1"
-        />
-    <EditText
-        android:id="@+id/inputEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Email"
-        android:layout_row="4"
-        android:layout_column="1"
-
-        />
-    <Button
-        android:id="@+id/btn_enviar"
+    <TextView
+        android:id="@+id/show_nombreUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Enviar"/>
+        android:padding="12dp"
+        android:text="Nombre de Usuario"/>
+    <TextView
+        android:id="@+id/show_emailUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="Email de Usuario"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="compartir"/>
 
 </LinearLayout>
