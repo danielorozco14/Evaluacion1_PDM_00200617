@@ -155,8 +155,8 @@ public class MainActivity extends AppCompatActivity {
             mIntent.putExtra("totalProd7",Integer.toString(getCont7()));
             mIntent.putExtra("totalProd8",Integer.toString(getCont8()));
             mIntent.putExtra("totalProd9",Integer.toString(getCont9()));
-            mIntent.putExtra("nombreUser",nomUser.toString().trim());
-            mIntent.putExtra("emailUser",emailUser.toString().trim());
+            mIntent.putExtra("nombreUser",nomUser.getText().toString().trim());
+            mIntent.putExtra("emailUser",emailUser.getText().toString().trim());
             startActivity(mIntent);
         });
     }

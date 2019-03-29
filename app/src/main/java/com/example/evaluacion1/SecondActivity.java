@@ -46,6 +46,8 @@ public class SecondActivity extends AppCompatActivity {
             totProd7.setText(mIntent.getStringExtra("totalProd7"));
             totProd8.setText(mIntent.getStringExtra("totalProd8"));
             totProd9.setText(mIntent.getStringExtra("totalProd9"));
+            nombreUser.setText(mIntent.getStringExtra("nombreUser"));
+            emailUser.setText(mIntent.getStringExtra("emailUser"));
 
         }
 
