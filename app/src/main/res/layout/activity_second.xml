@@ -226,6 +226,7 @@
         android:padding="8dp"
         android:text="Email de Usuario"/>
     <Button
+        android:id="@+id/btn_share"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

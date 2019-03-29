@@ -17,6 +17,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
         getID();
         setTotales();
+
     }
 
     public void getID(){
@@ -31,6 +32,7 @@ public class SecondActivity extends AppCompatActivity {
         totProd9=findViewById(R.id.total_producto9);
         nombreUser=findViewById(R.id.show_nombreUser);
         emailUser=findViewById(R.id.show_emailUser);
+        mButtonCompartir=findViewById(R.id.btn_share);
 
     }
 
@@ -50,6 +52,28 @@ public class SecondActivity extends AppCompatActivity {
             emailUser.setText(mIntent.getStringExtra("emailUser"));
 
         }
+        shareInfo();
+    }
 
+    public void shareInfo(){
+        mButtonCompartir.setOnClickListener(v->{
+            Intent mIntent = new Intent();
+            mIntent.setAction(Intent.ACTION_SEND);
+            mIntent.setType("text/plain");
+            mIntent.putExtra(Intent.EXTRA_TEXT,"Producto 1: "+totProd1.getText().toString()+", "
+                    +"Producto 2: "+totProd2.getText().toString()
+                    +", "+"Producto 3: "+totProd3.getText().toString()+", "
+                    +"Producto 4: "+totProd4.getText().toString()+", "+
+                    "Producto 5: "+totProd5.getText().toString()+", "
+                    +"Producto 6: "+totProd6.getText().toString()+", "+
+                    "Producto 7: "+totProd7.getText().toString()+", "+
+                    "Producto 8: "+totProd8.getText().toString()
+                    +", "+
+                    "Producto 9: "+totProd9.getText().toString()+", "+
+                    "Usuario: "+nombreUser.getText().toString()+", "+
+                    "Email: "+emailUser.getText().toString());
+
+            startActivity(mIntent);
+        });
     }
 }
